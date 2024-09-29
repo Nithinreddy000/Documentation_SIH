@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en" data-layout="vertical" data-layout-style="" data-layout-position="" data-topbar="light" data-sidebar="dark" data-sidebar-size="lg" data-layout-width="">
+
+<head>
+    <meta charset="utf-8" />
+    <title>MedSupply</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- App favicon -->
+    <!-- <link rel="shortcut icon" href="../assets/images/favicon.ico"> -->
+
+    <!-- Layout config Js -->
+    <script src="../../assets/js/layout.js"></script>
+    <!-- Bootstrap Css -->
+    <link href="../../assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
+    <!-- Icons Css -->
+    <link href="../../assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <!-- Remix Icon CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- App Css-->
+    <link href="../../assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+    <!-- Begin page -->
+    <div id="layout-wrapper">
+
+        <header id="page-topbar">
+            <div class="layout-width">
+                <div class="navbar-header">
+                    <div class="d-flex">
+                        <!-- LOGO -->
+                        <div class="navbar-brand-box horizontal-logo">
+                            <a href="index.html" class="">
+                        <!-- <span class="logo-sm">
+                            <img src="../assets/images/logo-sm.png" alt="" height="22">
+                        </span> -->
+                        <!-- <span class="logo-lg">
+                            <img src="../assets/images/logo-dark.png" alt="" height="17">
+                        </span> -->
+                    </a>
+
+                            <a href="index.html" class="">
+                        <!-- <span class="logo-sm">
+                            <img src="../assets/images/logo-sm.png" alt="" height="22">
+                        </span>
+                        <span class="logo-lg">
+                            <img src="../assets/images/logo-light.png" alt="" height="17">
+                        </span> -->
+                    </a>
+                        </div>
+
+                        <button type="button" class="btn btn-sm px-3 fs-16 header-item vertical-menu-btn topnav-hamburger" id="topnav-hamburger-icon">
+                    <span class="hamburger-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
+                </button>
+
+                        <div class="header-item ms-2">
+                            <span class="h5 mb-0">MedSupply</span>
+                        </div>
+                    </div>
+
+                    <div class="d-flex align-items-center">
+
+                        <div class="header-item me-1 me-md-3">
+                            <a href="https://www.figma.com/board/JnG5TOm4WF5jJybt9tyvN1/SIH-FLOWCHART?node-id=0-1&node-type=canvas&t=dZApk48foioWJKGl-0" target="_blank" class="btn btn-success"><i class="me-1 align-middle"></i>Flow Chart</a>
+                        </div>
+
+                        <div class="header-item">
+                            <a href="https://sih-project-medsupply.vercel.app/" target="_blank" class="btn btn-primary"><i class="me-1 align-middle"></i>Prototype</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- ========== App Menu ========== -->
+        <div class="app-menu navbar-menu">
+            <!-- LOGO -->
+            <div class="navbar-brand-box">
+                <!-- Dark Logo-->
+                <a href="index.html" class="logo logo-dark">
+                <!-- <span class="logo-sm">
+                    <img src="../assets/images/logo-sm.png" alt="" height="22">
+                </span>
+                <span class="logo-lg">
+                    <img src="../assets/images/logo-dark.png" alt="" height="17">
+                </span> -->
+            </a>
+                <!-- Light Logo-->
+                <a href="index.html" class="logo logo-light">
+                <!-- <span class="logo-sm">
+                    <img src="../assets/images/logo-sm.png" alt="" height="22">
+                </span>
+                <span class="logo-lg">
+                    <img src="../assets/images/logo-light.png" alt="" height="17"> <span
+                        class="badge badge-soft-danger fs-14 ms-1">React 18.*</span>
+                </span> -->
+            </a>
+                <button type="button" class="btn btn-sm p-0 fs-20 header-item float-end btn-vertical-sm-hover" id="vertical-hover">
+                <i class="ri-record-circle-line"></i>
+            </button>
+            </div>
+
+            <div id="scrollbar">
+                <div class="container-fluid">
+
+                    <ul class="navbar-nav" id="navbar-nav">
+                        <li class="menu-title"><span>Main</span></li>
+                        <li class="nav-item">
+                            <a class="nav-link menu-link" href="index.html">
+                            <i class="ri-honour-line"></i> <span>Inventory</span>
+                        </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu-link active" href="./Orders.html">
+                            <i class="ri-honour-line"></i> <span>Orders</span>
+                        </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu-link" href="./Testing.html">
+                            <i class="ri-honour-line"></i> <span>Testing</span>
+                        </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu-link" href="./Vendors.html">
+                            <i class="ri-honour-line"></i> <span>Supply Chain</span>
+                        </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Sidebar -->
+            </div>
+        </div>
+        <!-- Left Sidebar End -->
+        <!-- Vertical Overlay-->
+        <div class="vertical-overlay"></div>
+
+        <!-- ============================================================== -->
+        <!-- Start right Content here -->
+        <!-- ============================================================== -->
+        <div class="main-content">
+
+            <div class="page-content">
+                <div class="container-fluid">
+
+                    <!-- start page title -->
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="page-title-box d-sm-flex align-items-center justify-content-between">
+                                <h4 class="mb-sm-0">Orders</h4>
+
+                                <div class="page-title-right">
+                                    <ol class="breadcrumb m-0">
+                                        <li class=""><a href="">Documentation&nbsp;&nbsp;&nbsp;</a></li>
+                                        <li class="">Orders</li>
+                                    </ol>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end page title -->
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h6 class="fw-semibold text-success fs-16 text-decoration-underline mt-4 mb-3">MedSupply: Hospital Orders Overview</h6>
+                                    <!-- Inventory Image Section -->
+                                    <div class="alert alert-info d-flex" role="alert" style="background-color: white;">
+                                        <div style="flex: 1;">
+                                            <img src="../images/hospital/Orders/ViewOrders.png" alt="Inventory Image" style="width: 100%; height: auto;">
+                                        </div>
+                                    </div>
+                    
+                                    <div class="alert alert-info">
+                                        <b>Welcome!</b> The <b>View Orders</b> page displays all orders placed by the hospital from various manufacturers. All necessary details are presented in a table format, and clicking on any medicine in the table reveals additional information and reverse engineering details, similar to the Inventory page.
+                                    </div>
+                                    
+                    
+                                    <h6 class="fw-semibold text-success fs-16 text-decoration-underline mt-4 mb-3">MedSupply:Key Features Of Orders Page of Hospitals:</h6>
+                                    <ul>
+                                        <li>Request New Order</li>
+                                        <li>Orders Status</li>
+                                        <li>Track Your Order</li>
+                                        <!-- Additional list items -->
+                                    </ul>
+  
+                                    <h6 class="fw-semibold text-success fs-16 text-decoration-underline mt-4 mb-3">MedSupply: Request New Order:</h6>
+
+                                    <!-- Filters Image Section -->
+                                    <div class="alert alert-info d-flex" role="alert" style="background-color: white;">
+                                        <div style="flex: 1;">
+                                            <img src="../images/hospital/Orders/RequestNewOrder.png" alt="Filters Image" style="width: 100%; height: auto;">
+                                        </div>
+                                    </div>
+                    
+                                    <div class="alert alert-info">
+                                        This section allows hospitals to <b>request new orders</b>. Users can place new orders for medicines and supplies, using an interface designed with a <b>horizontal submission timeline</b> UI to guide the order process step-by-step.
+                                    </div>
+                                    
+                                    <!-- Additional Velzon Info Section -->
+
+                                    <h6 class="fw-semibold text-success fs-16 text-decoration-underline mt-4 mb-3">MedSupply: Orders Status:</h6>
+
+                                    <div class="alert alert-info d-flex" role="alert" style="background-color: white;">
+                                        <div style="flex: 1;">
+                                            <img src="../images/hospital/Orders/Status.png" alt="Filters Image" style="width: 100%; height: auto;">
+                                        </div>
+                                    </div>
+
+                                    <div class="alert alert-info d-flex" role="alert" style="background-color: white;">
+                                        <div style="flex: 1;">
+                                            <img src="../images/hospital/Orders/OrdersAdditionalInfo.png" alt="Filters Image" style="width: 100%; height: auto;">
+                                        </div>
+                                    </div>
+                    
+                                    <div class="alert alert-info">
+                                        This section displays the <b>Order Status</b> for all placed orders. Users can view the current status of each order, marked with tags such as <b>Pending</b>, <b>Completed</b>, or <b>Rejected</b>. By clicking on <b>More Details</b>, users can access a weekly order trends graph and a comprehensive report that includes information such as the quantity ordered, quantity delivered by the manufacturer, and any additional details related to the order.
+                                    
+                                        A <b>Download Report</b> button will also be available, allowing users to download detailed reports of their orders for further analysis.
+                                    
+                                        Additional details such as the <b>shipping address</b>, <b>logistics information</b> (including the driver’s mobile number, name, and vehicle number), as well as a live tracking timeline, are provided. This timeline is expandable to show further information, giving a detailed overview of the shipping and delivery process.
+                                    </div>
+                                    
+                                    
+
+                                    <h6 class="fw-semibold text-success fs-16 text-decoration-underline mt-4 mb-3">MedSupply: Track Your Order:</h6>
+
+                                    <div class="alert alert-info d-flex" role="alert" style="background-color: white;">
+                                        <div style="flex: 1;">
+                                            <img src="../images/hospital/Orders/Tracking&SecurityCheck.png" alt="Filters Image" style="width: 100%; height: auto;">
+                                        </div>
+                                    </div>
+                    
+                                    <div class="alert alert-info">
+                                        This section continuously monitors the <b>live location</b> of the truck carrying the order on a map to prevent any <b>tampering</b> with the medicines. 
+                                    
+                                        During the loading process, a <b>QR code</b> is generated within the app, printed, and attached to the packages, ensuring they are securely sealed. Upon receipt, the same <b>QR code</b> will be scanned again, allowing the app to validate its authenticity. This process helps to ensure that the medicines remain <b>untampered</b> throughout the delivery journey.
+                                    </div>
+                                    
+                                    
+
+                                    <h6 class="fw-semibold text-success fs-16 text-decoration-underline mt-4 mb-3">MedSupply:Future Updates:</h6>
+
+                                    <div class="alert alert-info">
+                                        We are planning to enhance the dashboard by improving <b>mobile responsiveness</b> and implementing a more <b>advanced user interface</b> with enhanced functionalities. 
+                                    
+                                        Additionally, we will integrate <b>AI models</b> for detecting <b>QR codes</b> on both ends, ensuring a seamless and secure process throughout the supply chain. Our team is committed to delivering an efficient and user-friendly experience.
+                                    </div>
+                                                                       
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    </div>
+                </div>
+                <!-- container-fluid -->
+            </div>
+            <!-- End Page-content -->
+
+
+            <footer class="footer">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <script>
+                                document.write(new Date().getFullYear())
+                            </script> © MedSupply.
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="text-sm-end d-none d-sm-block">
+                                Design & Develop by E-Coders
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+            <div class="alert alert-danger position-fixed bottom-0 start-50 translate-middle z-50 mb-0" style="margin-left: 70px;">
+                <b>Attention:</b> This prototype is incomplete due to time constraints, but we've included a flowchart explaining the full project concept.
+              </div>
+              
+        <!-- end main content-->
+
+    </div>
+    <!-- END layout-wrapper -->
+
+
+
+    <!-- JAVASCRIPT -->
+    <script src="../../assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../../assets/libs/simplebar/simplebar.min.js"></script>
+    <script src="../../assets/libs/node-waves/waves.min.js"></script>
+    <script src="../../assets/libs/feather-icons/feather.min.js"></script>
+    <script src="../../assets/js/pages/plugins/lord-icon-2.1.0.js"></script>
+    <script src="../../assets/libs/prismjs/prism.js"></script>
+
+    <!-- App js -->
+    <script src="../../assets/js/app.js"></script>
+</body>
+
+</html>

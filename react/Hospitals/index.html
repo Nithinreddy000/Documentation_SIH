@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en" data-layout="vertical" data-layout-style="" data-layout-position="" data-topbar="light" data-sidebar="dark" data-sidebar-size="lg" data-layout-width="">
+
+<head>
+    <meta charset="utf-8" />
+    <title>MedSupply</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- App favicon -->
+    <!-- <link rel="shortcut icon" href="../assets/images/favicon.ico"> -->
+
+    <!-- Layout config Js -->
+    <script src="../../assets/js/layout.js"></script>
+    <!-- Bootstrap Css -->
+    <link href="../../assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
+    <!-- Icons Css -->
+    <link href="../../assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <!-- Remix Icon CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- App Css-->
+    <link href="../../assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+    <!-- Begin page -->
+    <div id="layout-wrapper">
+
+        <header id="page-topbar">
+            <div class="layout-width">
+                <div class="navbar-header">
+                    <div class="d-flex">
+                        <!-- LOGO -->
+                        <div class="navbar-brand-box horizontal-logo">
+                            <a href="index.html" class="">
+                        <!-- <span class="logo-sm">
+                            <img src="../assets/images/logo-sm.png" alt="" height="22">
+                        </span> -->
+                        <!-- <span class="logo-lg">
+                            <img src="../assets/images/logo-dark.png" alt="" height="17">
+                        </span> -->
+                    </a>
+
+                            <a href="index.html" class="">
+                        <!-- <span class="logo-sm">
+                            <img src="../assets/images/logo-sm.png" alt="" height="22">
+                        </span>
+                        <span class="logo-lg">
+                            <img src="../assets/images/logo-light.png" alt="" height="17">
+                        </span> -->
+                    </a>
+                        </div>
+
+                        <button type="button" class="btn btn-sm px-3 fs-16 header-item vertical-menu-btn topnav-hamburger" id="topnav-hamburger-icon">
+                    <span class="hamburger-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
+                </button>
+
+                        <div class="header-item ms-2">
+                            <span class="h5 mb-0">MedSupply</span>
+                        </div>
+                    </div>
+
+                    <div class="d-flex align-items-center">
+
+                        <div class="header-item me-1 me-md-3">
+                            <a href="https://www.figma.com/board/JnG5TOm4WF5jJybt9tyvN1/SIH-FLOWCHART?node-id=0-1&node-type=canvas&t=dZApk48foioWJKGl-0" target="_blank" class="btn btn-success"><i class="me-1 align-middle"></i>Flow Chart</a>
+                        </div>
+
+                        <div class="header-item">
+                            <a href="https://sih-project-medsupply.vercel.app/" target="_blank" class="btn btn-primary"><i class="me-1 align-middle"></i>Prototype</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- ========== App Menu ========== -->
+        <div class="app-menu navbar-menu">
+            <!-- LOGO -->
+            <div class="navbar-brand-box">
+                <!-- Dark Logo-->
+                <a href="index.html" class="logo logo-dark">
+                <!-- <span class="logo-sm">
+                    <img src="../assets/images/logo-sm.png" alt="" height="22">
+                </span>
+                <span class="logo-lg">
+                    <img src="../assets/images/logo-dark.png" alt="" height="17">
+                </span> -->
+            </a>
+                <!-- Light Logo-->
+                <a href="index.html" class="logo logo-light">
+                <!-- <span class="logo-sm">
+                    <img src="../assets/images/logo-sm.png" alt="" height="22">
+                </span>
+                <span class="logo-lg">
+                    <img src="../assets/images/logo-light.png" alt="" height="17"> <span
+                        class="badge badge-soft-danger fs-14 ms-1">React 18.*</span>
+                </span> -->
+            </a>
+                <button type="button" class="btn btn-sm p-0 fs-20 header-item float-end btn-vertical-sm-hover" id="vertical-hover">
+                <i class="ri-record-circle-line"></i>
+            </button>
+            </div>
+
+            <div id="scrollbar">
+                <div class="container-fluid">
+
+                    <ul class="navbar-nav" id="navbar-nav">
+                        <li class="menu-title"><span>Main</span></li>
+                        <li class="nav-item">
+                            <a class="nav-link menu-link active" href="index.html">
+                            <i class="ri-honour-line"></i> <span>Inventory</span>
+                        </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu-link" href="./Orders.html">
+                            <i class="ri-honour-line"></i> <span>Orders</span>
+                        </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu-link" href="./Testing.html">
+                            <i class="ri-honour-line"></i> <span>Testing</span>
+                        </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu-link" href="./Vendors.html">
+                            <i class="ri-honour-line"></i> <span>Supply Chain</span>
+                        </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Sidebar -->
+            </div>
+        </div>
+        <!-- Left Sidebar End -->
+        <!-- Vertical Overlay-->
+        <div class="vertical-overlay"></div>
+
+        <!-- ============================================================== -->
+        <!-- Start right Content here -->
+        <!-- ============================================================== -->
+        <div class="main-content">
+
+            <div class="page-content">
+                <div class="container-fluid">
+
+                    <!-- start page title -->
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="page-title-box d-sm-flex align-items-center justify-content-between">
+                                <h4 class="mb-sm-0">Inventory</h4>
+
+                                <div class="page-title-right">
+                                    <ol class="breadcrumb m-0">
+                                        <li class=""><a href="">Documentation&nbsp;&nbsp;&nbsp;</a></li>
+                                        <li class="">Inventory</li>
+                                    </ol>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end page title -->
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="card">
+                                <div class="card-body">
+
+                                    <h6 class="fw-semibold text-success fs-16 text-decoration-underline">Introduction</h6>
+                                    <div class="alert alert-info">
+                                        Welcome to our comprehensive inventory management application, designed to integrate multiple stakeholders in the healthcare ecosystem, including hospitals, manufacturers, labs, and pharmacies. This platform provides user role-based authority, allowing secure logins for each organization, ensuring that users have access only to the features relevant to their role.
+                                    
+                                        Each organization will enjoy tailored functionalities to meet its specific needs. For instance, hospitals can filter inventory data based on parameters like expiry dates and item names, while labs will manage the storage and tracking of received test medicines with an emphasis on compliance and efficiency. Similarly, pharmacies will have streamlined access to manage their inventory with real-time updates on medication availability and supplier information.
+                                    
+                                        Currently, we have provided detailed descriptions about hospitals in both our prototype and documentation. We encourage you to check out the flowchart for a complete overview of our project idea and its functionality. As we continue to enhance the application, we aim to integrate advanced features that further streamline operations across all sectors, ensuring a seamless experience for users while improving overall healthcare delivery.
+                                    </div>
+                                    
+                                    <h6 class="fw-semibold text-success fs-16 text-decoration-underline">MedSupply: Login Credentials</h6>
+                                    <div class="alert alert-info d-flex" role="alert" style="background-color: white;">
+                                        <div style="flex: 1;">
+                                            <img src="../images/hospital/Inventory/login.png" alt="Inventory Image" style="width: 100%; height: auto;">
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="alert alert-info">
+                                        This page displays the <b>login options</b> for various organizations. Currently, you can log in using the following credentials:
+                                        <ul>
+                                            <li><strong>Hospitals:</strong> hospital@example.com / hospital123</li>
+                                            <li><strong>Labs:</strong> lab@example.com / lab123</li>
+                                            <li><strong>Manufacturers:</strong> manufacturer@example.com / manufacturer123</li>
+                                            <li><strong>Pharmacies:</strong> pharmacy@example.com / pharmacy123</li>
+                                        </ul>
+                                        <b>Note:</b> Role-based login for each organization is not implemented yet but will be available in future updates.
+                                    </div>
+                                    
+                                    
+
+                                    <h6 class="fw-semibold text-success fs-16 text-decoration-underline mt-4 mb-3">MedSupply: Inventory Of Hospitals</h6>
+                                    <!-- Inventory Image Section -->
+                                    <div class="alert alert-info d-flex" role="alert" style="background-color: white;">
+                                        <div style="flex: 1;">
+                                            <img src="../images/hospital/Inventory/Inventory.png" alt="Inventory Image" style="width: 100%; height: auto;">
+                                        </div>
+                                    </div>
+                    
+                                    <div class="alert alert-info">
+                                        <b>Welcome!</b> This page displays the <b>inventory</b> of hospitals, where you can view the available <b>drugs</b> along with all relevant information, such as <b>expiry dates</b>, <b>manufacturer details</b>, and more.
+                                    </div>
+                    
+                                    <h6 class="fw-semibold text-success fs-16 text-decoration-underline mt-4 mb-3">MedSupply:Key Features Of Inventory of Hospitals:</h6>
+                                    <ul>
+                                        <li>Filters</li>
+                                        <li>Additional Details & Reverse Engineering Of Drugs</li>
+                                        <li>CRUD Operations</li>
+                                        <!-- Additional list items -->
+                                    </ul>
+  
+                                    <h6 class="fw-semibold text-success fs-16 text-decoration-underline mt-4 mb-3">MedSupply:Filters:</h6>
+
+                                    <!-- Filters Image Section -->
+                                    <div class="alert alert-info d-flex" role="alert" style="background-color: white;">
+                                        <div style="flex: 1;">
+                                            <img src="../images/hospital/Inventory/Filters.png" alt="Filters Image" style="width: 100%; height: auto;">
+                                        </div>
+                                    </div>
+                    
+                                    <div class="alert alert-info">
+                                        This showcases the <b>Inventory Filters</b>, allowing users to filter inventory data based on various <b>parameters</b>, such as <b>expiry dates</b>, <b>manufacturer details</b>, <b>item ID</b>, <b>item name</b>, and much more.
+                                    </div>
+                                    <!-- Additional Velzon Info Section -->
+
+                                    <h6 class="fw-semibold text-success fs-16 text-decoration-underline mt-4 mb-3">MedSupply:Additional Details & Reverse Engineering Of Drugs:</h6>
+
+                                    <div class="alert alert-info d-flex" role="alert" style="background-color: white;">
+                                        <div style="flex: 1;">
+                                            <img src="../images/hospital/Inventory/Details.png" alt="Filters Image" style="width: 100%; height: auto;">
+                                        </div>
+                                    </div>
+                    
+                                    <div class="alert alert-info">
+                                        This showcases the <b>Inventory Additional Details</b> and <b>Reverse Engineering of Selected Drugs</b>, providing users with information such as <b>storage location</b>, <b>rack number</b>, <b>clinical and chemical test details</b>, and a detailed report of tests available for download as confidential information, accessible only to selected admins of the concerned authorities. It also includes many other relevant details about the selected drug.
+                                    </div>
+
+                                    <h6 class="fw-semibold text-success fs-16 text-decoration-underline mt-4 mb-3">MedSupply:CRUD Operations:</h6>
+
+                                    <div class="alert alert-info d-flex" role="alert" style="background-color: white;">
+                                        <div style="flex: 1;">
+                                            <img src="../images/hospital/Inventory/Add_new.png" alt="Filters Image" style="width: 100%; height: auto;">
+                                        </div>
+                                    </div>
+                    
+                                    <div class="alert alert-info">
+                                        This allows users to <b>add new medicines</b>, <b>edit existing data</b>, and <b>delete medicines</b> as needed. All changes are securely managed and accessible only to authorized personnel.
+                                    </div>
+
+
+                                    <h6 class="fw-semibold text-success fs-16 text-decoration-underline mt-4 mb-3">MedSupply:Future Updates:</h6>
+
+                                    <div class="alert alert-info">
+                                        We are planning to enhance the dashboard by adding various <b>statistics</b> to showcase different <b>trends in drug data</b>. The improvements will include <b>mobile responsiveness</b> and a more intuitive user interface with <b>advanced functionalities</b>. 
+                                    
+                                        In addition, we are integrating <b>AI models</b> for <b>waste prediction</b> and <b>expiry detection</b> of drugs. Our team has already begun training these models with sample data to ensure accurate and reliable predictions.
+                                    
+                                        Future updates will also include the addition of <b>machinery status</b> and <b>machinery inventory</b> to provide a comprehensive view of equipment availability and performance.
+                                    </div>
+                                                                         
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    </div>
+                </div>
+                <!-- container-fluid -->
+            </div>
+            <!-- End Page-content -->
+
+
+            <footer class="footer">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <script>
+                                document.write(new Date().getFullYear())
+                            </script> © MedSupply.
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="text-sm-end d-none d-sm-block">
+                                Design & Develop by E-Coders
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+            <div class="alert alert-danger position-fixed bottom-0 start-50 translate-middle z-50 mb-0" style="margin-left: 70px;">
+                <b>Attention:</b> This prototype is incomplete due to time constraints, but we've included a flowchart explaining the full project concept.
+              </div>
+              
+        <!-- end main content-->
+
+    </div>
+    <!-- END layout-wrapper -->
+
+
+
+    <!-- JAVASCRIPT -->
+    <script src="../../assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../../assets/libs/simplebar/simplebar.min.js"></script>
+    <script src="../../assets/libs/node-waves/waves.min.js"></script>
+    <script src="../../assets/libs/feather-icons/feather.min.js"></script>
+    <script src="../../assets/js/pages/plugins/lord-icon-2.1.0.js"></script>
+    <script src="../../assets/libs/prismjs/prism.js"></script>
+
+    <!-- App js -->
+    <script src="../../assets/js/app.js"></script>
+</body>
+
+</html>
