@@ -9,15 +9,15 @@
     <!-- <link rel="shortcut icon" href="../assets/images/favicon.ico"> -->
 
     <!-- Layout config Js -->
-    <script src="../../assets/js/layout.js"></script>
+    <script src="./assets/js/layout.js"></script>
     <!-- Bootstrap Css -->
-    <link href="../../assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
+    <link href="./assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
     <!-- Icons Css -->
-    <link href="../../assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <link href="./assets/css/icons.min.css" rel="stylesheet" type="text/css" />
     <!-- Remix Icon CSS -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <!-- App Css-->
-    <link href="../../assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+    <link href="./assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -115,12 +115,12 @@
                         </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link menu-link" href="./Orders.html">
+                            <a class="nav-link menu-link active" href="./Orders.html">
                             <i class="ri-honour-line"></i> <span>Orders</span>
                         </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link menu-link active" href="./Testing.html">
+                            <a class="nav-link menu-link" href="./Testing.html">
                             <i class="ri-honour-line"></i> <span>Testing</span>
                         </a>
                         </li>
@@ -150,12 +150,12 @@
                     <div class="row">
                         <div class="col-12">
                             <div class="page-title-box d-sm-flex align-items-center justify-content-between">
-                                <h4 class="mb-sm-0">Testing</h4>
+                                <h4 class="mb-sm-0">Orders</h4>
 
                                 <div class="page-title-right">
                                     <ol class="breadcrumb m-0">
                                         <li class=""><a href="">Documentation&nbsp;&nbsp;&nbsp;</a></li>
-                                        <li class="">Testing</li>
+                                        <li class="">Orders</li>
                                     </ol>
                                 </div>
 
@@ -168,75 +168,89 @@
                         <div class="col-lg-12">
                             <div class="card">
                                 <div class="card-body">
-                                    <h6 class="fw-semibold text-success fs-16 text-decoration-underline mt-4 mb-3">MedSupply: Hospital Tests Overview</h6>
+                                    <h6 class="fw-semibold text-success fs-16 text-decoration-underline mt-4 mb-3">MedSupply: Hospital Orders Overview</h6>
                                     <!-- Inventory Image Section -->
                                     <div class="alert alert-info d-flex" role="alert" style="background-color: white;">
                                         <div style="flex: 1;">
-                                            <img src="../images/hospital/Testing/ViewTestsInventory.png" alt="Inventory Image" style="width: 100%; height: auto;">
+                                            <img src="./react/images/hospital/Orders/ViewOrders.png" alt="Inventory Image" style="width: 100%; height: auto;">
                                         </div>
                                     </div>
                     
                                     <div class="alert alert-info">
-                                        <b>Welcome!</b> The <b>Tests Inventory</b> page displays all the medicines that hospitals have sent for testing. You can view the complete list of medicines in the inventory, and clicking on any item will reveal additional information and <b>reverse engineering</b> details of the selected medicines.
+                                        <b>Welcome!</b> The <b>View Orders</b> page displays all orders placed by the hospital from various manufacturers. All necessary details are presented in a table format, and clicking on any medicine in the table reveals additional information and reverse engineering details, similar to the Inventory page.
                                     </div>
                                     
-                                    
                     
-                                    <h6 class="fw-semibold text-success fs-16 text-decoration-underline mt-4 mb-3">MedSupply:Key Features Of Testing Page of Hospitals:</h6>
+                                    <h6 class="fw-semibold text-success fs-16 text-decoration-underline mt-4 mb-3">MedSupply:Key Features Of Orders Page of Hospitals:</h6>
                                     <ul>
-                                        <li>Request New Test</li>
-                                        <li>Test Status</li>
-                                        <li>Tests Details</li>
+                                        <li>Request New Order</li>
+                                        <li>Orders Status</li>
+                                        <li>Track Your Order</li>
                                         <!-- Additional list items -->
                                     </ul>
   
-                                    <h6 class="fw-semibold text-success fs-16 text-decoration-underline mt-4 mb-3">MedSupply: Request New Test:</h6>
+                                    <h6 class="fw-semibold text-success fs-16 text-decoration-underline mt-4 mb-3">MedSupply: Request New Order:</h6>
 
                                     <!-- Filters Image Section -->
                                     <div class="alert alert-info d-flex" role="alert" style="background-color: white;">
                                         <div style="flex: 1;">
-                                            <img src="../images/hospital/Testing/NewTestRequest.png" alt="Filters Image" style="width: 100%; height: auto;">
+                                            <img src="./react/images/hospital/Orders/RequestNewOrder.png" alt="Filters Image" style="width: 100%; height: auto;">
                                         </div>
                                     </div>
                     
                                     <div class="alert alert-info">
-                                        This section allows hospitals to <b>add new test requests</b> for a specific medicine. Users can submit test requests to available laboratories, using an interface designed to streamline the process step-by-step.
+                                        This section allows hospitals to <b>request new orders</b>. Users can place new orders for medicines and supplies, using an interface designed with a <b>horizontal submission timeline</b> UI to guide the order process step-by-step.
                                     </div>
-                                    
                                     
                                     <!-- Additional Velzon Info Section -->
 
-                                    <h6 class="fw-semibold text-success fs-16 text-decoration-underline mt-4 mb-3">MedSupply: Test Status & Test Details:</h6>
+                                    <h6 class="fw-semibold text-success fs-16 text-decoration-underline mt-4 mb-3">MedSupply: Orders Status:</h6>
 
                                     <div class="alert alert-info d-flex" role="alert" style="background-color: white;">
                                         <div style="flex: 1;">
-                                            <img src="../images/hospital/Testing/TestStatus.png" alt="Filters Image" style="width: 100%; height: auto;">
+                                            <img src="./react/images/hospital/Orders/Status.png" alt="Filters Image" style="width: 100%; height: auto;">
                                         </div>
                                     </div>
 
                                     <div class="alert alert-info d-flex" role="alert" style="background-color: white;">
                                         <div style="flex: 1;">
-                                            <img src="../images/hospital/Testing/TestResults.png" alt="Filters Image" style="width: 100%; height: auto;">
+                                            <img src="./react/images/hospital/Orders/OrdersAdditionalInfo.png" alt="Filters Image" style="width: 100%; height: auto;">
                                         </div>
                                     </div>
                     
                                     <div class="alert alert-info">
-                                        This section displays the <b>Test Status and Details</b> for all requested tests. Users can view the current status of each test, marked with tags such as <b>Pending</b>, <b>Completed</b>, or <b>Rejected</b>. By clicking on <b>More Details</b>, users can access a weekly test trends graph and a comprehensive report that includes information such as the requested tests, test results, and any additional details related to the test process.
-                                        
-                                        A <b>Download Report</b> button will also be available, allowing users to download detailed reports of their test requests for further analysis.
-                                        
-                                        Additional details such as the <b>laboratory information</b> (including the lab's address, ratings, and contact details) are provided. Instead of shipping information, users can view the tests requested for a specific medicine, along with a status timeline showing each stage of the testing process. This timeline is expandable, providing a detailed overview of the test progression.
+                                        This section displays the <b>Order Status</b> for all placed orders. Users can view the current status of each order, marked with tags such as <b>Pending</b>, <b>Completed</b>, or <b>Rejected</b>. By clicking on <b>More Details</b>, users can access a weekly order trends graph and a comprehensive report that includes information such as the quantity ordered, quantity delivered by the manufacturer, and any additional details related to the order.
+                                    
+                                        A <b>Download Report</b> button will also be available, allowing users to download detailed reports of their orders for further analysis.
+                                    
+                                        Additional details such as the <b>shipping address</b>, <b>logistics information</b> (including the driver’s mobile number, name, and vehicle number), as well as a live tracking timeline, are provided. This timeline is expandable to show further information, giving a detailed overview of the shipping and delivery process.
                                     </div>
                                     
-                                
+                                    
+
+                                    <h6 class="fw-semibold text-success fs-16 text-decoration-underline mt-4 mb-3">MedSupply: Track Your Order:</h6>
+
+                                    <div class="alert alert-info d-flex" role="alert" style="background-color: white;">
+                                        <div style="flex: 1;">
+                                            <img src="./react/images/hospital/Orders/Tracking&SecurityCheck.png" alt="Filters Image" style="width: 100%; height: auto;">
+                                        </div>
+                                    </div>
+                    
+                                    <div class="alert alert-info">
+                                        This section continuously monitors the <b>live location</b> of the truck carrying the order on a map to prevent any <b>tampering</b> with the medicines. 
+                                    
+                                        During the loading process, a <b>QR code</b> is generated within the app, printed, and attached to the packages, ensuring they are securely sealed. Upon receipt, the same <b>QR code</b> will be scanned again, allowing the app to validate its authenticity. This process helps to ensure that the medicines remain <b>untampered</b> throughout the delivery journey.
+                                    </div>
+                                    
+                                    
+
                                     <h6 class="fw-semibold text-success fs-16 text-decoration-underline mt-4 mb-3">MedSupply:Future Updates:</h6>
 
                                     <div class="alert alert-info">
-                                        We are planning to enhance the dashboard by improving <b>responsiveness</b> across mobile and all devices, implementing a more <b>advanced user interface</b> with enhanced functionalities. 
-                                        
-                                        Additionally, we will integrate a <b>sample database</b> for testing and demonstration purposes. A new <b>View Laboratories</b> page will also be added, displaying all available labs that offer testing services, providing comprehensive information for easy access and selection.
-                                    </div>
+                                        We are planning to enhance the dashboard by improving <b>mobile responsiveness</b> and implementing a more <b>advanced user interface</b> with enhanced functionalities. 
                                     
+                                        Additionally, we will integrate <b>AI models</b> for detecting <b>QR codes</b> on both ends, ensuring a seamless and secure process throughout the supply chain. Our team is committed to delivering an efficient and user-friendly experience.
+                                    </div>
                                                                        
                                 </div>
                             </div>
@@ -279,15 +293,15 @@
 
 
     <!-- JAVASCRIPT -->
-    <script src="../../assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="../../assets/libs/simplebar/simplebar.min.js"></script>
-    <script src="../../assets/libs/node-waves/waves.min.js"></script>
-    <script src="../../assets/libs/feather-icons/feather.min.js"></script>
-    <script src="../../assets/js/pages/plugins/lord-icon-2.1.0.js"></script>
-    <script src="../../assets/libs/prismjs/prism.js"></script>
+    <script src="./assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/libs/simplebar/simplebar.min.js"></script>
+    <script src="./assets/libs/node-waves/waves.min.js"></script>
+    <script src="./assets/libs/feather-icons/feather.min.js"></script>
+    <script src="./assets/js/pages/plugins/lord-icon-2.1.0.js"></script>
+    <script src="./assets/libs/prismjs/prism.js"></script>
 
     <!-- App js -->
-    <script src="../../assets/js/app.js"></script>
+    <script src="./assets/js/app.js"></script>
 </body>
 
 </html>

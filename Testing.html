@@ -9,15 +9,15 @@
     <!-- <link rel="shortcut icon" href="../assets/images/favicon.ico"> -->
 
     <!-- Layout config Js -->
-    <script src="../../assets/js/layout.js"></script>
+    <script src="./assets/js/layout.js"></script>
     <!-- Bootstrap Css -->
-    <link href="../../assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
+    <link href="./assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
     <!-- Icons Css -->
-    <link href="../../assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <link href="./assets/css/icons.min.css" rel="stylesheet" type="text/css" />
     <!-- Remix Icon CSS -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <!-- App Css-->
-    <link href="../../assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+    <link href="./assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -110,7 +110,7 @@
                     <ul class="navbar-nav" id="navbar-nav">
                         <li class="menu-title"><span>Main</span></li>
                         <li class="nav-item">
-                            <a class="nav-link menu-link active" href="index.html">
+                            <a class="nav-link menu-link" href="index.html">
                             <i class="ri-honour-line"></i> <span>Inventory</span>
                         </a>
                         </li>
@@ -120,7 +120,7 @@
                         </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link menu-link" href="./Testing.html">
+                            <a class="nav-link menu-link active" href="./Testing.html">
                             <i class="ri-honour-line"></i> <span>Testing</span>
                         </a>
                         </li>
@@ -150,12 +150,12 @@
                     <div class="row">
                         <div class="col-12">
                             <div class="page-title-box d-sm-flex align-items-center justify-content-between">
-                                <h4 class="mb-sm-0">Inventory</h4>
+                                <h4 class="mb-sm-0">Testing</h4>
 
                                 <div class="page-title-right">
                                     <ol class="breadcrumb m-0">
                                         <li class=""><a href="">Documentation&nbsp;&nbsp;&nbsp;</a></li>
-                                        <li class="">Inventory</li>
+                                        <li class="">Testing</li>
                                     </ol>
                                 </div>
 
@@ -168,105 +168,76 @@
                         <div class="col-lg-12">
                             <div class="card">
                                 <div class="card-body">
-
-                                    <h6 class="fw-semibold text-success fs-16 text-decoration-underline">Introduction</h6>
-                                    <div class="alert alert-info">
-                                        Welcome to our comprehensive inventory management application, designed to integrate multiple stakeholders in the healthcare ecosystem, including hospitals, manufacturers, labs, and pharmacies. This platform provides user role-based authority, allowing secure logins for each organization, ensuring that users have access only to the features relevant to their role.
-                                    
-                                        Each organization will enjoy tailored functionalities to meet its specific needs. For instance, hospitals can filter inventory data based on parameters like expiry dates and item names, while labs will manage the storage and tracking of received test medicines with an emphasis on compliance and efficiency. Similarly, pharmacies will have streamlined access to manage their inventory with real-time updates on medication availability and supplier information.
-                                    
-                                        Currently, we have provided detailed descriptions about hospitals in both our prototype and documentation. We encourage you to check out the flowchart for a complete overview of our project idea and its functionality. As we continue to enhance the application, we aim to integrate advanced features that further streamline operations across all sectors, ensuring a seamless experience for users while improving overall healthcare delivery.
-                                    </div>
-                                    
-                                    <h6 class="fw-semibold text-success fs-16 text-decoration-underline">MedSupply: Login Credentials</h6>
-                                    <div class="alert alert-info d-flex" role="alert" style="background-color: white;">
-                                        <div style="flex: 1;">
-                                            <img src="../images/hospital/Inventory/login.png" alt="Inventory Image" style="width: 100%; height: auto;">
-                                        </div>
-                                    </div>
-                                    
-                                    <div class="alert alert-info">
-                                        This page displays the <b>login options</b> for various organizations. Currently, you can log in using the following credentials:
-                                        <ul>
-                                            <li><strong>Hospitals:</strong> hospital@example.com / hospital123</li>
-                                            <li><strong>Labs:</strong> lab@example.com / lab123</li>
-                                            <li><strong>Manufacturers:</strong> manufacturer@example.com / manufacturer123</li>
-                                            <li><strong>Pharmacies:</strong> pharmacy@example.com / pharmacy123</li>
-                                        </ul>
-                                        <b>Note:</b> Role-based login for each organization is not implemented yet but will be available in future updates.
-                                    </div>
-                                    
-                                    
-
-                                    <h6 class="fw-semibold text-success fs-16 text-decoration-underline mt-4 mb-3">MedSupply: Inventory Of Hospitals</h6>
+                                    <h6 class="fw-semibold text-success fs-16 text-decoration-underline mt-4 mb-3">MedSupply: Hospital Tests Overview</h6>
                                     <!-- Inventory Image Section -->
                                     <div class="alert alert-info d-flex" role="alert" style="background-color: white;">
                                         <div style="flex: 1;">
-                                            <img src="../images/hospital/Inventory/Inventory.png" alt="Inventory Image" style="width: 100%; height: auto;">
+                                            <img src="./react/images/hospital/Testing/ViewTestsInventory.png" alt="Inventory Image" style="width: 100%; height: auto;">
                                         </div>
                                     </div>
                     
                                     <div class="alert alert-info">
-                                        <b>Welcome!</b> This page displays the <b>inventory</b> of hospitals, where you can view the available <b>drugs</b> along with all relevant information, such as <b>expiry dates</b>, <b>manufacturer details</b>, and more.
+                                        <b>Welcome!</b> The <b>Tests Inventory</b> page displays all the medicines that hospitals have sent for testing. You can view the complete list of medicines in the inventory, and clicking on any item will reveal additional information and <b>reverse engineering</b> details of the selected medicines.
                                     </div>
+                                    
+                                    
                     
-                                    <h6 class="fw-semibold text-success fs-16 text-decoration-underline mt-4 mb-3">MedSupply:Key Features Of Inventory of Hospitals:</h6>
+                                    <h6 class="fw-semibold text-success fs-16 text-decoration-underline mt-4 mb-3">MedSupply:Key Features Of Testing Page of Hospitals:</h6>
                                     <ul>
-                                        <li>Filters</li>
-                                        <li>Additional Details & Reverse Engineering Of Drugs</li>
-                                        <li>CRUD Operations</li>
+                                        <li>Request New Test</li>
+                                        <li>Test Status</li>
+                                        <li>Tests Details</li>
                                         <!-- Additional list items -->
                                     </ul>
   
-                                    <h6 class="fw-semibold text-success fs-16 text-decoration-underline mt-4 mb-3">MedSupply:Filters:</h6>
+                                    <h6 class="fw-semibold text-success fs-16 text-decoration-underline mt-4 mb-3">MedSupply: Request New Test:</h6>
 
                                     <!-- Filters Image Section -->
                                     <div class="alert alert-info d-flex" role="alert" style="background-color: white;">
                                         <div style="flex: 1;">
-                                            <img src="../images/hospital/Inventory/Filters.png" alt="Filters Image" style="width: 100%; height: auto;">
+                                            <img src="./react/images/hospital/Testing/NewTestRequest.png" alt="Filters Image" style="width: 100%; height: auto;">
                                         </div>
                                     </div>
                     
                                     <div class="alert alert-info">
-                                        This showcases the <b>Inventory Filters</b>, allowing users to filter inventory data based on various <b>parameters</b>, such as <b>expiry dates</b>, <b>manufacturer details</b>, <b>item ID</b>, <b>item name</b>, and much more.
+                                        This section allows hospitals to <b>add new test requests</b> for a specific medicine. Users can submit test requests to available laboratories, using an interface designed to streamline the process step-by-step.
                                     </div>
+                                    
+                                    
                                     <!-- Additional Velzon Info Section -->
 
-                                    <h6 class="fw-semibold text-success fs-16 text-decoration-underline mt-4 mb-3">MedSupply:Additional Details & Reverse Engineering Of Drugs:</h6>
+                                    <h6 class="fw-semibold text-success fs-16 text-decoration-underline mt-4 mb-3">MedSupply: Test Status & Test Details:</h6>
 
                                     <div class="alert alert-info d-flex" role="alert" style="background-color: white;">
                                         <div style="flex: 1;">
-                                            <img src="../images/hospital/Inventory/Details.png" alt="Filters Image" style="width: 100%; height: auto;">
+                                            <img src="./react/images/hospital/Testing/TestStatus.png" alt="Filters Image" style="width: 100%; height: auto;">
+                                        </div>
+                                    </div>
+
+                                    <div class="alert alert-info d-flex" role="alert" style="background-color: white;">
+                                        <div style="flex: 1;">
+                                            <img src="./react/images/hospital/Testing/TestResults.png" alt="Filters Image" style="width: 100%; height: auto;">
                                         </div>
                                     </div>
                     
                                     <div class="alert alert-info">
-                                        This showcases the <b>Inventory Additional Details</b> and <b>Reverse Engineering of Selected Drugs</b>, providing users with information such as <b>storage location</b>, <b>rack number</b>, <b>clinical and chemical test details</b>, and a detailed report of tests available for download as confidential information, accessible only to selected admins of the concerned authorities. It also includes many other relevant details about the selected drug.
+                                        This section displays the <b>Test Status and Details</b> for all requested tests. Users can view the current status of each test, marked with tags such as <b>Pending</b>, <b>Completed</b>, or <b>Rejected</b>. By clicking on <b>More Details</b>, users can access a weekly test trends graph and a comprehensive report that includes information such as the requested tests, test results, and any additional details related to the test process.
+                                        
+                                        A <b>Download Report</b> button will also be available, allowing users to download detailed reports of their test requests for further analysis.
+                                        
+                                        Additional details such as the <b>laboratory information</b> (including the lab's address, ratings, and contact details) are provided. Instead of shipping information, users can view the tests requested for a specific medicine, along with a status timeline showing each stage of the testing process. This timeline is expandable, providing a detailed overview of the test progression.
                                     </div>
-
-                                    <h6 class="fw-semibold text-success fs-16 text-decoration-underline mt-4 mb-3">MedSupply:CRUD Operations:</h6>
-
-                                    <div class="alert alert-info d-flex" role="alert" style="background-color: white;">
-                                        <div style="flex: 1;">
-                                            <img src="../images/hospital/Inventory/Add_new.png" alt="Filters Image" style="width: 100%; height: auto;">
-                                        </div>
-                                    </div>
-                    
-                                    <div class="alert alert-info">
-                                        This allows users to <b>add new medicines</b>, <b>edit existing data</b>, and <b>delete medicines</b> as needed. All changes are securely managed and accessible only to authorized personnel.
-                                    </div>
-
-
+                                    
+                                
                                     <h6 class="fw-semibold text-success fs-16 text-decoration-underline mt-4 mb-3">MedSupply:Future Updates:</h6>
 
                                     <div class="alert alert-info">
-                                        We are planning to enhance the dashboard by adding various <b>statistics</b> to showcase different <b>trends in drug data</b>. The improvements will include <b>mobile responsiveness</b> and a more intuitive user interface with <b>advanced functionalities</b>. 
-                                    
-                                        In addition, we are integrating <b>AI models</b> for <b>waste prediction</b> and <b>expiry detection</b> of drugs. Our team has already begun training these models with sample data to ensure accurate and reliable predictions.
-                                    
-                                        Future updates will also include the addition of <b>machinery status</b> and <b>machinery inventory</b> to provide a comprehensive view of equipment availability and performance.
+                                        We are planning to enhance the dashboard by improving <b>responsiveness</b> across mobile and all devices, implementing a more <b>advanced user interface</b> with enhanced functionalities. 
+                                        
+                                        Additionally, we will integrate a <b>sample database</b> for testing and demonstration purposes. A new <b>View Laboratories</b> page will also be added, displaying all available labs that offer testing services, providing comprehensive information for easy access and selection.
                                     </div>
-                                                                         
+                                    
+                                                                       
                                 </div>
                             </div>
                         </div>
@@ -308,15 +279,15 @@
 
 
     <!-- JAVASCRIPT -->
-    <script src="../../assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="../../assets/libs/simplebar/simplebar.min.js"></script>
-    <script src="../../assets/libs/node-waves/waves.min.js"></script>
-    <script src="../../assets/libs/feather-icons/feather.min.js"></script>
-    <script src="../../assets/js/pages/plugins/lord-icon-2.1.0.js"></script>
-    <script src="../../assets/libs/prismjs/prism.js"></script>
+    <script src="./assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/libs/simplebar/simplebar.min.js"></script>
+    <script src="./assets/libs/node-waves/waves.min.js"></script>
+    <script src="./assets/libs/feather-icons/feather.min.js"></script>
+    <script src="./assets/js/pages/plugins/lord-icon-2.1.0.js"></script>
+    <script src="./assets/libs/prismjs/prism.js"></script>
 
     <!-- App js -->
-    <script src="../../assets/js/app.js"></script>
+    <script src="./assets/js/app.js"></script>
 </body>
 
 </html>

@@ -9,15 +9,15 @@
     <!-- <link rel="shortcut icon" href="../assets/images/favicon.ico"> -->
 
     <!-- Layout config Js -->
-    <script src="../../assets/js/layout.js"></script>
+    <script src="./assets/js/layout.js"></script>
     <!-- Bootstrap Css -->
-    <link href="../../assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
+    <link href="./assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
     <!-- Icons Css -->
-    <link href="../../assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <link href="./assets/css/icons.min.css" rel="stylesheet" type="text/css" />
     <!-- Remix Icon CSS -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <!-- App Css-->
-    <link href="../../assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+    <link href="./assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -103,7 +103,6 @@
                 <i class="ri-record-circle-line"></i>
             </button>
             </div>
-
             <div id="scrollbar">
                 <div class="container-fluid">
 
@@ -115,7 +114,7 @@
                         </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link menu-link active" href="./Orders.html">
+                            <a class="nav-link menu-link" href="./Orders.html">
                             <i class="ri-honour-line"></i> <span>Orders</span>
                         </a>
                         </li>
@@ -125,7 +124,7 @@
                         </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link menu-link" href="./Vendors.html">
+                            <a class="nav-link menu-link active" href="./Vendors.html">
                             <i class="ri-honour-line"></i> <span>Supply Chain</span>
                         </a>
                         </li>
@@ -150,12 +149,12 @@
                     <div class="row">
                         <div class="col-12">
                             <div class="page-title-box d-sm-flex align-items-center justify-content-between">
-                                <h4 class="mb-sm-0">Orders</h4>
+                                <h4 class="mb-sm-0">Supply Chain</h4>
 
                                 <div class="page-title-right">
                                     <ol class="breadcrumb m-0">
                                         <li class=""><a href="">Documentation&nbsp;&nbsp;&nbsp;</a></li>
-                                        <li class="">Orders</li>
+                                        <li class="">Supply Chain</li>
                                     </ol>
                                 </div>
 
@@ -168,89 +167,35 @@
                         <div class="col-lg-12">
                             <div class="card">
                                 <div class="card-body">
-                                    <h6 class="fw-semibold text-success fs-16 text-decoration-underline mt-4 mb-3">MedSupply: Hospital Orders Overview</h6>
+                                    <h6 class="fw-semibold text-success fs-16 text-decoration-underline mt-4 mb-3">MedSupply: Vendors(Supply Chain) Overview</h6>
                                     <!-- Inventory Image Section -->
                                     <div class="alert alert-info d-flex" role="alert" style="background-color: white;">
                                         <div style="flex: 1;">
-                                            <img src="../images/hospital/Orders/ViewOrders.png" alt="Inventory Image" style="width: 100%; height: auto;">
+                                            <img src="./react/images/hospital/Vendors/ViewVendors.png" alt="Inventory Image" style="width: 100%; height: auto;">
                                         </div>
                                     </div>
                     
                                     <div class="alert alert-info">
-                                        <b>Welcome!</b> The <b>View Orders</b> page displays all orders placed by the hospital from various manufacturers. All necessary details are presented in a table format, and clicking on any medicine in the table reveals additional information and reverse engineering details, similar to the Inventory page.
+                                        <b>Welcome!</b> The <b>View Vendors</b> page displays a comprehensive list of all vendors, along with their detailed information. You can find <b>manufacturer details</b> such as <b>name</b>, <b>address</b>, and <b>contact information</b>. 
+                                    
+                                        Additionally, the page provides information on <b>vendor licenses</b>, <b>ratings and reviews</b>, <b>previous orders</b>, and any <b>latest alerts</b> or <b>flag notifications</b>. 
+                                    
+                                        Using our <b>risk and fraud detection AI models</b> as well as <b>quality compliance AI models</b>, flags are incremented or decremented based on detected issues. This enables real-time alerts to be sent to the authorized departments whenever potential tampering or any other concerns are identified, ensuring prompt action and compliance.
                                     </div>
-                                    
-                    
-                                    <h6 class="fw-semibold text-success fs-16 text-decoration-underline mt-4 mb-3">MedSupply:Key Features Of Orders Page of Hospitals:</h6>
-                                    <ul>
-                                        <li>Request New Order</li>
-                                        <li>Orders Status</li>
-                                        <li>Track Your Order</li>
-                                        <!-- Additional list items -->
-                                    </ul>
-  
-                                    <h6 class="fw-semibold text-success fs-16 text-decoration-underline mt-4 mb-3">MedSupply: Request New Order:</h6>
-
-                                    <!-- Filters Image Section -->
-                                    <div class="alert alert-info d-flex" role="alert" style="background-color: white;">
-                                        <div style="flex: 1;">
-                                            <img src="../images/hospital/Orders/RequestNewOrder.png" alt="Filters Image" style="width: 100%; height: auto;">
-                                        </div>
-                                    </div>
-                    
-                                    <div class="alert alert-info">
-                                        This section allows hospitals to <b>request new orders</b>. Users can place new orders for medicines and supplies, using an interface designed with a <b>horizontal submission timeline</b> UI to guide the order process step-by-step.
-                                    </div>
-                                    
-                                    <!-- Additional Velzon Info Section -->
-
-                                    <h6 class="fw-semibold text-success fs-16 text-decoration-underline mt-4 mb-3">MedSupply: Orders Status:</h6>
-
-                                    <div class="alert alert-info d-flex" role="alert" style="background-color: white;">
-                                        <div style="flex: 1;">
-                                            <img src="../images/hospital/Orders/Status.png" alt="Filters Image" style="width: 100%; height: auto;">
-                                        </div>
-                                    </div>
-
-                                    <div class="alert alert-info d-flex" role="alert" style="background-color: white;">
-                                        <div style="flex: 1;">
-                                            <img src="../images/hospital/Orders/OrdersAdditionalInfo.png" alt="Filters Image" style="width: 100%; height: auto;">
-                                        </div>
-                                    </div>
-                    
-                                    <div class="alert alert-info">
-                                        This section displays the <b>Order Status</b> for all placed orders. Users can view the current status of each order, marked with tags such as <b>Pending</b>, <b>Completed</b>, or <b>Rejected</b>. By clicking on <b>More Details</b>, users can access a weekly order trends graph and a comprehensive report that includes information such as the quantity ordered, quantity delivered by the manufacturer, and any additional details related to the order.
-                                    
-                                        A <b>Download Report</b> button will also be available, allowing users to download detailed reports of their orders for further analysis.
-                                    
-                                        Additional details such as the <b>shipping address</b>, <b>logistics information</b> (including the driver’s mobile number, name, and vehicle number), as well as a live tracking timeline, are provided. This timeline is expandable to show further information, giving a detailed overview of the shipping and delivery process.
-                                    </div>
-                                    
-                                    
-
-                                    <h6 class="fw-semibold text-success fs-16 text-decoration-underline mt-4 mb-3">MedSupply: Track Your Order:</h6>
-
-                                    <div class="alert alert-info d-flex" role="alert" style="background-color: white;">
-                                        <div style="flex: 1;">
-                                            <img src="../images/hospital/Orders/Tracking&SecurityCheck.png" alt="Filters Image" style="width: 100%; height: auto;">
-                                        </div>
-                                    </div>
-                    
-                                    <div class="alert alert-info">
-                                        This section continuously monitors the <b>live location</b> of the truck carrying the order on a map to prevent any <b>tampering</b> with the medicines. 
-                                    
-                                        During the loading process, a <b>QR code</b> is generated within the app, printed, and attached to the packages, ensuring they are securely sealed. Upon receipt, the same <b>QR code</b> will be scanned again, allowing the app to validate its authenticity. This process helps to ensure that the medicines remain <b>untampered</b> throughout the delivery journey.
-                                    </div>
-                                    
-                                    
 
                                     <h6 class="fw-semibold text-success fs-16 text-decoration-underline mt-4 mb-3">MedSupply:Future Updates:</h6>
 
                                     <div class="alert alert-info">
-                                        We are planning to enhance the dashboard by improving <b>mobile responsiveness</b> and implementing a more <b>advanced user interface</b> with enhanced functionalities. 
+                                        In future updates, we plan to introduce two new pages along with improvements in <b>responsiveness</b> and a more <b>advanced user interface</b>:
                                     
-                                        Additionally, we will integrate <b>AI models</b> for detecting <b>QR codes</b> on both ends, ensuring a seamless and secure process throughout the supply chain. Our team is committed to delivering an efficient and user-friendly experience.
+                                        <b>Marketplace</b>: This page will provide a platform for manufacturers to showcase their products and services, including detailed information about available vendors and their manufactured medicines. Users will be able to explore a wide range of pharmaceutical products, compare manufacturers, and view vendor profiles, ratings, and certifications. It will serve as a centralized hub for hospitals and pharmacies to easily connect with trusted suppliers.
+                                    
+                                        <b>Feedback</b>: This page will collect and display feedback from hospitals and pharmacies, enabling them to share their experiences and rate their interactions with vendors and manufacturers. This feedback will help improve the overall quality and reliability of the supply chain, allowing authorized personnel to make informed decisions based on user reviews and ratings.
+                                    
+                                        These updates will be accompanied by enhancements in <b>mobile responsiveness</b> and a more <b>advanced user interface</b> to ensure a seamless and user-friendly experience across all devices.
                                     </div>
+                                    
+                                    
                                                                        
                                 </div>
                             </div>
@@ -293,15 +238,15 @@
 
 
     <!-- JAVASCRIPT -->
-    <script src="../../assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="../../assets/libs/simplebar/simplebar.min.js"></script>
-    <script src="../../assets/libs/node-waves/waves.min.js"></script>
-    <script src="../../assets/libs/feather-icons/feather.min.js"></script>
-    <script src="../../assets/js/pages/plugins/lord-icon-2.1.0.js"></script>
-    <script src="../../assets/libs/prismjs/prism.js"></script>
+    <script src="./assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/libs/simplebar/simplebar.min.js"></script>
+    <script src="./assets/libs/node-waves/waves.min.js"></script>
+    <script src="./assets/libs/feather-icons/feather.min.js"></script>
+    <script src="./assets/js/pages/plugins/lord-icon-2.1.0.js"></script>
+    <script src="./assets/libs/prismjs/prism.js"></script>
 
     <!-- App js -->
-    <script src="../../assets/js/app.js"></script>
+    <script src="./assets/js/app.js"></script>
 </body>
 
 </html>
